@@ -1,6 +1,6 @@
 # ConvertMoney
 
-<img src="./GitImg/1.jpeg" alt="exemplo imagem 1"> <img src="./GitImg/1.jpeg" alt="exemplo imagem 2"> <img src="./GitImg/3.jpeg" alt="exemplo imagem 3"> <img src="./GitImg/4.jpeg" alt="exemplo imagem 4">
+<img src="./GitImg/1.jpeg" alt="exemplo imagem 1" width="300px"> <img src="./GitImg/2.jpeg" alt="exemplo imagem 2" width="300px"> <img src="./GitImg/3.jpeg" alt="exemplo imagem 3" width="300px"> <img src="./GitImg/4.jpeg" alt="exemplo imagem 4" width="300px">
 
 > Nesse projeto fiz um conversor de moedas utilizando o HTML, CSS e JS || In this project I made a currency converter using HTML, CSS and JS
 
