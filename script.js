@@ -3,15 +3,19 @@ const select = document.getElementById('currencySelect');
 const header = document.getElementById('header')
 const section = document.getElementById('section')
 
-const dolar = 5.2;
-const euro = 5.9;
-const bitCoin = 202166.11
-const ethereum = 14520.38
 
-const convertValues = () => {
+const convertValues = async () => {
     const inputReais = document.getElementById('value-real').value;
     const realValueText = document.getElementById('realValueText');
     const currencyValueText = document.getElementById('currencyValueText');
+
+    const data = await fetch('https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL').then(response => response.json())
+    const data2 = await fetch('https://www.mercadobitcoin.net/api/ETH/ticker/').then(response => response.json())
+
+    const dolar = data.USDBRL.low
+    const euro = data.EURBRL.low
+    const bitCoin = data.BTCBRL.low
+    const ethereum = data2.ticker.low
 
     realValueText.innerHTML = new Intl.NumberFormat('pt-BR',
         { style: 'currency', currency: 'BRL' }
