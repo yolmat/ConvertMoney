@@ -18,7 +18,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] css construction
 - [x] js construction
 - [x] construction cryptocurrencies
-- [ ] NodeJs construction
+- [x] NodeJs construction
 
 ## 🤝 Colaboradores
 
